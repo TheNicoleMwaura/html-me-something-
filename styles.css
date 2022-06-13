@@ -1,1 +1,48 @@
 /* Write your CSS here! */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&display=swap');
+
+html{
+    box-sizing: border-box;
+    
+}
+*, *:before, *:after{  /*  inherit the box-sizig */
+    box-sizing: inherit;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Barlow" , sans-serif;
+      
+ }
+
+ .header{
+    background-image: url("kenya heading.jpeg");
+    background-size: cover; /* background image to cover the entire container*/
+    background-position: center;
+    height: 100vh;
+    color: azure;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+   
+
+
+ }
+ .heading{
+    justify-content: center;
+    
+ }
+
+ .header h1{
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 6em;
+ }
+
+
+
+ 
