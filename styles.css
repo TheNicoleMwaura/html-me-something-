@@ -28,14 +28,12 @@ body{
     color: azure;
     text-align: center;
     font-family: 'Courgette', cursive;
-   
-
-
- }
- .heading{
-    justify-content: center;
+    padding-top: 100px;
     
+
+
  }
+ 
 
  .header h1{
     margin: 0;
@@ -43,6 +41,37 @@ body{
     font-size: 6em;
  }
 
+ #paragraph1 {
+   font-size: 1em;
+ }
+
+
+ .main{
+    background-color: rgb(244, 244, 243);
+    
+ }
+
+ .main h1{
+    font-family: 'Courgette', cursive;
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+ }
+
+ 
+
+ #greatMigration{
+    height: 100vh;
+ }
+
+ #mountKenya{
+    height: 100vh;
+ }
+
+ #flamingos{
+    height: 100vh;
+ }
 
 
  
