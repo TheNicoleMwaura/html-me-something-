@@ -21,7 +21,7 @@ body{
  }
 
  .header{
-    background-image: url("kenya heading.jpeg");
+    background-image: url("/images/kenya\ heading.jpeg");
     background-size: cover; /* background image to cover the entire container*/
     background-position: center;
     height: 100vh;
@@ -39,10 +39,12 @@ body{
     margin: 0;
     font-family: 'Dancing Script', cursive;
     font-size: 6em;
+    color: red;
  }
 
- #paragraph1 {
+ #funParagraph {
    font-size: 1em;
+   color: green;
  }
 
 
@@ -66,12 +68,15 @@ body{
  }
 
  #mountKenya{
-    height: 100vh;
+    height: 110vh;
  }
 
  #flamingos{
-    height: 100vh;
+    height: 110vh;
  }
 
+ #lamuimgs{
+   display: flex;
+ }
 
  
